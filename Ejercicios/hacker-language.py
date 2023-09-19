@@ -12,6 +12,6 @@ palabra = palabra.upper()
 
 
 reemplazo_abc = {abc[i]: abc_reemplazo[i] for i in range(len(abc))}
-palabra_reemplazada = ''.join([reemplazo_abc.get(letra, letra) for letra in palabra])
+palabra_reemplazada = ' '.join([reemplazo_abc.get(letra, letra) for letra in palabra])
 
 print(palabra_reemplazada)
